@@ -42,7 +42,7 @@ jobs:
           registryPassword: ${{ secrets.VAGAFITBACKENDAPP_REGISTRY_PASSWORD }}
           containerAppName: vagafit-backend-app
           resourceGroup: vaga-fit
-          imageToBuild: ruanwilliansnogueira@gmail.com/vagafit-backend-app:${{ github.sha }}
+          imageToBuild: ruanwill/vagafit:${{ github.sha }}
           _buildArgumentsKey_: |
             _buildArgumentsValues_
 
